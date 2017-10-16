@@ -5,7 +5,7 @@ const DialogflowApp = require('actions-on-google').DialogflowApp; // Google Assi
 const firebase = require('firebase');
 
 const googleAssistantRequest = 'google'; // Constant to identify Google Assistant requests
-var todoList = [];
+var todoList = {};
 
 /*
   Set the configuration for your app
